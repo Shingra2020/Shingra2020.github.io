@@ -92,6 +92,10 @@ section {
     margin-bottom: 50px;
     letter-spacing: 3.08px;
 }
+.text-3D a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
 .ddd button {
     cursor: pointer;
     
@@ -107,8 +111,12 @@ section {
  
 .ddd button:hover {
     background-color: #000;
-    border-color: #fff;
-    color: white;
+    border-color: rgba(255, 255, 255, 0.712);
+    color: rgb(252, 252, 252);
+
+}
+.ddd button a:hover{
+    color: rgb(252, 252, 252);
 }
 .Cht img{
     height: 400px;
@@ -122,6 +130,10 @@ section {
 }
 .text-Cht {
     text-align-last: center;
+}
+.text-Cht a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
 }
 .text-Cht span{
     
@@ -153,9 +165,13 @@ section {
  
 .Cht button:hover {
     background-color: #000;
-    border-color: #fff;
-    color: white;
+    border-color: rgba(255, 255, 255, 0.712);
+    color: rgb(252, 252, 252);
 }
+.Cht button a:hover{
+    color: rgb(252, 252, 252);
+}
+
 .send{
     display: flex;
     flex-wrap: wrap;
