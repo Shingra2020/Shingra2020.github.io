@@ -42,8 +42,9 @@ section {
     font-size: 100px;
 }
 .OSN-text p {
-    color: rgb(8, 12, 248);
-    font-size: 40px;
+    padding-top: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
     letter-spacing: 4.2px;
 }
 .OSN-text button {
@@ -65,7 +66,7 @@ section {
     color: white;
 }
 .ddd img{
-    height: 400px;
+    height: 700px;
 }
 .ddd{
     height: 60vh;
@@ -119,7 +120,7 @@ section {
     color: rgb(252, 252, 252);
 }
 .Cht img{
-    height: 400px;
+    height: 600px;
 }
 .Cht{
     height: 60vh;
