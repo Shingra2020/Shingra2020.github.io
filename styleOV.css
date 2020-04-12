@@ -9,11 +9,14 @@ section {
     
     padding-top: 20px;
     background: url(/img/2.jpg) center center no-repeat ;
+    background-size: cover;
     
 }
 .menu {
+  
     display: flex;
     justify-content: center;
+    
 }
 
 .menu a {
@@ -35,6 +38,7 @@ section {
 }
 
 .OSN-text h1{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +46,9 @@ section {
     font-size: 100px;
 }
 .OSN-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: ultra-condensed;
+    font-weight: bold;
     padding-top: 400px;
     color: rgb(0, 0, 0);
     font-size: 50px;
@@ -65,8 +72,13 @@ section {
     border-color: #fff;
     color: white;
 }
+.OSN-text button:active {
+    background-color: rgb(238, 230, 230);
+    border-color: rgb(104, 102, 102);
+    color: rgb(15, 15, 15);
+}
 .ddd img{
-    height: 550px;
+    height: 700px;
 }
 .ddd{
     height: 60vh;
@@ -116,11 +128,16 @@ section {
     color: rgb(252, 252, 252);
 
 }
+.ddd button:active {
+    background-color: rgb(238, 230, 230);
+    border-color: rgb(104, 102, 102);
+    color: rgb(15, 15, 15);
+}
 .ddd button a:hover{
     color: rgb(252, 252, 252);
 }
 .Cht img{
-    height: 500px;
+    height: 600px;
 }
 .Cht{
     height: 60vh;
@@ -168,6 +185,11 @@ section {
     background-color: #000;
     border-color: rgba(255, 255, 255, 0.712);
     color: rgb(252, 252, 252);
+}
+.Cht button:active {
+    background-color: rgb(238, 230, 230);
+    border-color: rgb(104, 102, 102);
+    color: rgb(15, 15, 15);
 }
 .Cht button a:hover{
     color: rgb(252, 252, 252);
@@ -221,6 +243,11 @@ form button:hover{
     border: 2px solid #3a4047;
     background-color: #ffffff;
     color: #000;
+}
+form button:active {
+    background-color: rgb(87, 85, 85);
+    border-color: rgb(29, 28, 28);
+    color: rgb(219, 217, 217);
 }
 .footer{
     text-align: center;
